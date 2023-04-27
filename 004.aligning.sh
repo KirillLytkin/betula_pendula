@@ -18,7 +18,7 @@ INPUTpath=${ROOTpath}/003.merged.data
 OUTPUTpath=${ROOTpath}/004.aligned.data
 
 ## data
-REFERENCE=${REFERENCEpath}/Betula_pendula_subsp._pendula.faa
+REFERENCE=${REFERENCEpath}/Betula_pendula_subsp._pendula.fasta
 FILE=$(awk '{print $2}' $RELATEpath/barcodes.txt | sed "${ID}q;d")
 INPUT1=${INPUTpath}/$FILE\.1.p.fq.gz
 INPUT2=${INPUTpath}/$FILE\.2.p.fq.gz
