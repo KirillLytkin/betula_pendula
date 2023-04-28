@@ -9,7 +9,7 @@
 ## path
 TOOLpath=/mnt/tank/scratch/klytkin/tools
 REFERENCEpath=/mnt/tank/scratch/klytkin/bereza/000.ref
-ROOTpath=/mnt/tank/scratch/klytkin/bereza/003.com
+ROOTpath=/mnt/tank/scratch/klytkin/bereza/003.all.lib
 RELATEpath=${ROOTpath}/relate
 INPUTpath=${ROOTpath}/008.genotyped.data
 OUTPUTpath=${ROOTpath}/009.filtered.data
