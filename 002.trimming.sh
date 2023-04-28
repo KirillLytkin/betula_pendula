@@ -15,8 +15,8 @@ ROOTpath=/mnt/tank/scratch/klytkin/bereza/001.lib
 RELATEpath=${ROOTpath}/relate
 INPUTpath=${ROOTpath}/001.demultiplexed.data
 OUTPUTpath=${ROOTpath}/002.trimmed.data
-LANE1path=${INPUTpath}/S_1_EKDL230000003-1A_HKN3NDSX5_L2
-LANE2path=${INPUTpath}/S_1_EKDL230000003-1A_HKN3NDSX5_L4
+LANE1path=${OUTPUTpath}/S_1_EKDL230000003-1A_HKN3NDSX5_L2
+LANE2path=${OUTPUTpath}/S_1_EKDL230000003-1A_HKN3NDSX5_L4
 
 ## data
 ADAPTER=${RELATEpath}/adapters.fa
