@@ -2,7 +2,7 @@
 #SBATCH --job-name=genotyping
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=36G
-#SBATCH --time=24:00:00
+#SBATCH --time=144:00:00
 #SBATCH -o ./out/008.genotyping.out
 #SBATCH -e ./err/008.genotyping.err
 
